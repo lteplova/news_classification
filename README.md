@@ -13,3 +13,16 @@
 
  <img width="399" alt="image" src="https://github.com/lteplova/news_classification/assets/38242392/3fccc4a3-0c1c-4fb3-821e-4aca75befb9c">
 
+ ## Данные 
+
+Был выполнен парсинг данных с сайта lenta.ru и fontanka.ru
+Код парсинга находится в ноутбуке news_parsing.ipynb
+Далее был получен train.df (это датафрейм, содержащий 83934 строки и 4 колонки - link/text/target/text_prep)
+text_prep - колонка с предобработанным текстом
+В данных есть дисбаланс:  
+<img width="308" alt="image" src="https://github.com/lteplova/news_classification/assets/38242392/d6024b3f-c3ae-41ad-baf9-2e7251f06780">
+
+
+
+ ## Решение  
+
