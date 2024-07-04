@@ -15,9 +15,9 @@
 
  ## Данные 
 
-Был выполнен парсинг данных с сайта lenta.ru и fontanka.ru
+Был выполнен парсинг данных с сайта lenta.ru и fontanka.ru.
 Код парсинга находится в ноутбуке news_parsing.ipynb
-Далее был получен train.df (это датафрейм, содержащий 83934 строки и 4 колонки - link/text/target/text_prep)
+Далее был получен [train.df](https://www.kaggle.com/datasets/luydmilateplova/lenta-f/settings) (это датафрейм, содержащий 83934 строки и 4 колонки - `link/text/target/text_prep`)
 text_prep - колонка с предобработанным текстом
 В данных есть дисбаланс:  
 
