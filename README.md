@@ -33,4 +33,18 @@ text_prep - колонка с предобработанным текстом
 
  <img width="259" alt="image" src="https://github.com/lteplova/news_classification/assets/38242392/7cf40ca7-a34a-4ecd-9494-2c85db737e45">
 
+Вариант с транформерами (модель `DeepPavlov/rubert-base-cased`) не дала улучшения, при этом гораздо более ресурсозатратная как по времени, так и по процессорному времени.
 
+Моя метрика на тестовых данных (которые модель не видела - 0.85652)  
+
+## Используемые технологии  
+
+* requests
+* BeautifulSoup
+* sklearn.feature_extraction (TfidfVectorizer)
+* sklearn.linear_model (LogisticRegression, SGDClassifier)
+* sklearn.preprocessing (MaxAbsScaler, StandardScaler)
+* xgboost
+* gensim.models (Word2Vec)
+* transformers: AutoTokenizer, BertForSequenceClassification
+* torch
