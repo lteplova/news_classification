@@ -4,7 +4,7 @@
 
 Задача предсказания тем новостей, в рамках открытого буткемпа "First Step in NLP: 2.0" от ФКН ВШЭ.
 
-Описание соревнования - https://www.kaggle.com/competitions/news-scraping-competition/overview
+Описание соревнования - https://www.kaggle.com/competitions/news-scraping-competition
 
 ## Задача  
 
@@ -17,7 +17,7 @@
 
 Был выполнен парсинг данных с сайта lenta.ru и fontanka.ru.
 Код парсинга находится в ноутбуке news_parsing.ipynb
-Далее был получен [train.df](https://www.kaggle.com/datasets/luydmilateplova/lenta-f/settings) (это датафрейм, содержащий 83934 строки и 4 колонки - `link/text/target/text_prep`)
+Далее был получен [train.df](https://www.kaggle.com/datasets/luydmilateplova/lenta-f) (это датафрейм, содержащий 83934 строки и 4 колонки - `link/text/target/text_prep`)
 text_prep - колонка с предобработанным текстом
 В данных есть дисбаланс:  
 
