@@ -20,9 +20,9 @@
 Далее был получен train.df (это датафрейм, содержащий 83934 строки и 4 колонки - link/text/target/text_prep)
 text_prep - колонка с предобработанным текстом
 В данных есть дисбаланс:  
-<img width="308" alt="image" src="https://github.com/lteplova/news_classification/assets/38242392/d6024b3f-c3ae-41ad-baf9-2e7251f06780">
 
-
+<img width="206" alt="image" src="https://github.com/lteplova/news_classification/assets/38242392/f9dc001c-53b8-40ed-88df-1adf35dd3c29">
+<img width="965" alt="image" src="https://github.com/lteplova/news_classification/assets/38242392/6bc1b52e-9b0c-4ad3-9166-05c69fd3b5c5">
 
  ## Решение  
 
